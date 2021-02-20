@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wisnuwahyudi.aplikasikuis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiKuis"
+        android:usesCleartextTraffic="true"
+        android:windowSoftInputMode="adjustResize|stateAlwaysVisible">
+        <activity
+            android:name=".splash.SplashScreenActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".tampilanpencapaian.view.PencapaianActivity"
+            android:label="Pencapaian"
+            android:parentActivityName=".kategorisoal.view.KategoriSoalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".kategorisoal.view.KategoriSoalActivity" />
+        </activity>
+        <activity
+            android:name=".tampilankuis.view.TampilanKuisActivity"
+            android:label="@string/title_activity_tampilan_kuis"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+
+        </activity>
+
+        <activity
+            android:name=".kategorisoal.view.KategoriSoalActivity"
+            android:label="Kategori Soal">
+
+        </activity>
+    </application>
+
+</manifest>

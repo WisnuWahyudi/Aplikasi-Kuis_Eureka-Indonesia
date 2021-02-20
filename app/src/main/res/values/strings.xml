@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Aplikasi Kuis</string>
+    <string name="title_activity_tampilan_kuis">Detail Soal</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_quest">1. Pengertian karya seni rupa murni adalah karya seni yang lebih mementingkan ...</string>
+    <string name="sample_answer_a">A.Teknik pembuatannya</string>
+
+    <string name="one">Soal 1</string>
+    <string name="two">Soal 2</string>
+    <string name="three">Soal 3</string>
+    <string name="four">Soal 4</string>
+    <string name="five">Soal 5</string>
+
+    <string name="soal_art_seni">Soal Art/Seni</string>
+    <string name="skor">Skor :</string>
+    <string name="_0">0</string>
+    <string name="benar">Benar :</string>
+    <string name="salah">Salah :</string>
+    <string name="exam_5_minutes">Exam(5 Min) :</string>
+    <string name="_300_detik">300 Detik</string>
+    <string name="todo">TODO</string>
+    <string name="soal_5_5">Soal : 5/5</string>
+    <string name="exam">EXAM</string>
+
+
+</resources>

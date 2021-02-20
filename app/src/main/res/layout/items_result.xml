@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/toolsJwbNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jawaban Soal : 1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgCheckBenar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        android:src="@drawable/check_benar"
+        />
+
+    <ImageView
+        android:id="@+id/imgCheckWrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/check_wrong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        />
+
+
+    <TextView
+        android:id="@+id/toolsJawaban"
+        style="@style/ItemJawaban"
+        android:layout_marginTop="5dp"
+        android:text="Jawaban Kamu : "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolsJwbNumber" />
+
+    <TextView
+        android:id="@+id/txtJawabanKamu"
+        style="@style/ItemJawaban"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolsJawaban"
+        tools:text="B.Keindahan dibandingkan fungsi pakai" />
+
+    <TextView
+        android:id="@+id/toolsJawabanBenar"
+        style="@style/ItemJawaban"
+        android:layout_marginTop="10dp"
+        android:text="Jawaban Yang Benar : "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtJawabanKamu" />
+
+    <TextView
+        android:id="@+id/txtJawabanBenar"
+        style="@style/ItemJawaban"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolsJawabanBenar"
+        tools:text="B.Keindahan dibandingkan fungsi pakai" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#038FFD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtJawabanBenar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
